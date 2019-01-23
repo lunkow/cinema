@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+
+	<meta name="viewport" content="width=device-width">
+
+
+	<title>KINO!</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="header__container">
+			<div class="logo">
+					<div class="logo__high-bglines">
+						<div class="logo__low-bglines">
+							<span class="logo__text">Эксперт</span>
+						</div>
+					</div>
+			</div>
+			<div class="search-bar">
+					<form id="search-box" action="/search/">
+
+						<div class="search-box__wrapper">
+						<input class="search-bar__text" type="text" name="search-query">
+						<button class="search-bar__button">ПОИСК</button>
+						</div>
+					</form>
+			</div>
+			<div class="social-networks">
+				<a href="#"> <img class="social-networks__item social-networks__item-rss" src="img/sn-rss.png" alt="RSS"> </a>
+				<a href="#"> <img class="social-networks__item social-networks__item-fb" src="img/sn-fb.png" alt="Facebook"> </a>
+				<a href="#"> <img class="social-networks__item social-networks__item-twitter" src="img/sn-twitter.png" alt="Twitter"> </a>
+			</div>
+
+			<nav class="menu">
+
+				<input type="checkbox" id="hmt" class="menu-block__hidden">
+					<label class="menu__button" for="hmt">
+					  <span class="humberger-element humburger-line__top"></span>
+					  <span class="humberger-element humburger-line__middle"></span>
+					  <span class="humberger-element humburger-line__bottom"></span>
+					</label>
+
+
+				<ul class="menu__list">
+					<li class="menu__item"> <a class="menu-item__link menu-item__link-1" href="#"> ГЛАВНАЯ </a> </li>
+					<li class="menu__item"> <a class="menu-item__link menu-item__link-2" href="#"> КИНО </a> </li>
+					<li class="menu__item"> <a class="menu-item__link menu-item__link-3" href="#"> МАГАЗИН </a> </li>
+					<li class="menu__item"> <a class="menu-item__link menu-item__link-4" href="#"> ПРОЕКТЫ </a> </li>
+					<li class="menu__item"> <a class="menu-item__link menu-item__link-5" href="#"> НОВОСТИ </a> </li>
+					<li class="menu__item"> <a class="menu-item__link menu-item__link-6" href="#"> АРХИВ </a> </li>
+					<li class="menu__item"> <a class="menu-item__link menu-item__link-7" href="#"> КОНТАКТЫ </a> </li>
+				</ul>
+			</nav>
+
+			<div class="decorate-line-top">
+				<div class="decorate-line__block block-color-1"></div>
+				<div class="decorate-line__block block-color-2"></div>
+				<div class="decorate-line__block block-color-3"></div>
+				<div class="decorate-line__block block-color-4"></div>
+				<div class="decorate-line__block block-color-5"></div>
+				<div class="decorate-line__block block-color-1"></div>
+				<div class="decorate-line__block block-color-2"></div>
+				<div class="decorate-line__block block-color-3"></div>
+				<div class="decorate-line__block block-color-4"></div>
+				<div class="decorate-line__block block-color-5"></div>
+				<div class="decorate-line__block block-color-1"></div>
+				<div class="decorate-line__block block-color-2"></div>
+				<div class="decorate-line__block block-color-3"></div>
+				<div class="decorate-line__block block-color-4"></div>
+				<div class="decorate-line__block block-color-5"></div>
+			</div>
+		</div>
+
+	</header>
+
+
+	<main>
+		<div class="content-container">
+			<div class="article">
+				<div class="article__datebox">
+					<span class="article__datebox-numbers">28</span>
+					<span class="article__datebox-month">ФЕВ</span>
+				</div>
+				<span class="article__title">Lorem Ipsum is simply dummy text of the printing</span>
+				<span class="article__text">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+				</span>
+
+
+						<div class="article__gallery">
+							<div class="gallery__big-picture" id="bigImage" name="in_focus">
+								<img class="gallery__big-picture-img" src="img/gallery-image-1_b.jpg"/>
+							</div>
+							
+							<ul class="gallery__small-pictures">
+								<li class="gallery__small-pictures-li"><a class="gallery__small-pictures-link" href='javascript:void(0);' onclick='javascript:pictureSelector(1);'>
+		<img class="gallery__small-picture-img" src="img/gallery-image-1.jpg"/> </a></li>
+
+	<li class="gallery__small-pictures-li"><a class="gallery__small-pictures-link" href='javascript:void(0);' onclick='javascript:pictureSelector(2);'>
+		<img class="gallery__small-picture-img" src="img/gallery-image-2.jpg"/> </a></li>
+	<li class="gallery__small-pictures-li"><a class="gallery__small-pictures-link" href='javascript:void(0);' onclick='javascript:pictureSelector(3);'>
+		<img class="gallery__small-picture-img" src="img/gallery-image-3.jpg"/> </a></li>
+	<li class="gallery__small-pictures-li"><a class="gallery__small-pictures-link" href='javascript:void(0);' onclick='javascript:pictureSelector(4);'>
+		<img class="gallery__small-picture-img" src="img/gallery-image-4.jpg"/> </a></li>
+
+							</ul>
+				        </div>
+				
+
+					        <div class="artile-2nd-part">
+					        	<span class="article__text">
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+									</span>
+					        </div>
+			</div>
+
+
+			<div class="sidebar">
+				<div class="sidebar__interesting">
+					<span class="sidebar__interesting-title">ИНТЕРЕСНОЕ</span>
+				</div>
+		<!-- TABS -->
+				<div class="sidebar__tabs-wrapper">
+					<div id="tabs">
+				        <div class="tab ">
+				        	МОДА
+				        	<div class="corner corner-first"></div>
+				    	</div>
+				        <div class="tab whiteborder">
+					        КИНО
+					        <div class="corner corner-second"></div>
+				    	</div>
+				        <div class="tab">
+				        	TV
+				        	<div class="corner corner-third"></div>
+				        </div>
+		<!-- TAB`S CONTENT -->
+				        <div class="tabContent">1</div>
+				        <div class="tabContent">
+							<div class="cinema-article">
+								<img src="img/interesting-cinema-news-image.jpg" alt="film" class="cinema-article__img">
+								<div class="cinema-article__stuff">
+
+									<h3 class="stuff__title">
+										Lorem Ipsum is simply dummy text of the printing
+									</h3>
+									<span class="stuff__text">
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+									</span>
+								</div>
+							</div>
+
+							<div class="cinema-article">
+								<img src="img/interesting-cinema-news-image.jpg" alt="film" class="cinema-article__img">
+								<div class="cinema-article__stuff">
+
+									<h3 class="stuff__title">
+										Lorem Ipsum is simply dummy text of the printing
+									</h3>
+									<span class="stuff__text">
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+									</span>
+								</div>
+							</div>
+
+							<div class="cinema-article">
+								<img src="img/interesting-cinema-news-image.jpg" alt="film" class="cinema-article__img">
+								<div class="cinema-article__stuff">
+
+									<h3 class="stuff__title">
+										Lorem Ipsum is simply dummy text of the printing
+									</h3>
+									<span class="stuff__text">
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+									</span>
+								</div>
+							</div>
+				        </div>
+				        <div class="tabContent">3</div>
+
+				    </div>
+				</div>
+		<!-- END OF TABS  -->
+
+			    <div class="sidebar__liked">
+			    	<span class="sidebar__liked-title">ПОНРАВИЛОСЬ ПОСЕТИТЕЛЯМ</span>
+
+			    		<div class="liked-article">
+							<img src="img/liked-news-image.jpg" alt="like" class="liked-article__img">
+							<div class="liked-article__stuff">								
+								<span class="liked-article-stuff__text">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+								</span>
+								<a class="liked-article-stuff__link" href="#">Medication >></a>
+							</div>
+						</div>
+			    		<div class="liked-article">
+							<img src="img/liked-news-image.jpg" alt="like" class="liked-article__img">
+							<div class="liked-article__stuff">								
+								<span class="liked-article-stuff__text">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+								</span>
+								<a class="liked-article-stuff__link" href="#">Medication >></a>
+							</div>
+						</div>
+			    		<div class="liked-article">
+							<img src="img/liked-news-image.jpg" alt="like" class="liked-article__img">
+							<div class="liked-article__stuff">								
+								<span class="liked-article-stuff__text">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+								</span>
+								<a class="liked-article-stuff__link" href="#">Medication >></a>
+							</div>
+						</div>
+						<div class="liked-article">
+							<img src="img/liked-news-image.jpg" alt="like" class="liked-article__img">
+							<div class="liked-article__stuff">								
+								<span class="liked-article-stuff__text">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+								</span>
+								<a class="liked-article-stuff__link" href="#">Medication >></a>
+							</div>
+						</div>
+
+
+			    </div>
+			</div>
+				<div class="decorate-line-bottom">
+					<div class="decorate-line__block block-color-2"></div>
+					<div class="decorate-line__block block-color-3"></div>
+					<div class="decorate-line__block block-color-4"></div>
+					<div class="decorate-line__block block-color-5"></div>
+					<div class="decorate-line__block block-color-1"></div>
+					<div class="decorate-line__block block-color-2"></div>
+					<div class="decorate-line__block block-color-3"></div>
+					<div class="decorate-line__block block-color-4"></div>
+					<div class="decorate-line__block block-color-5"></div>
+					<div class="decorate-line__block block-color-1"></div>
+
+				</div>
+		</div>
+	</main>
+	<footer></footer>
+
+
+
+<script>
+var tab; // заголовок вкладки
+var tabContent; // блок содержащий контент вкладки
+window.onload=function() {
+    tabContent=document.getElementsByClassName('tabContent');
+    tab=document.getElementsByClassName('tab');
+    hideTabsContent(1);
+    showTabsContent(1);
+}
+document.getElementById('tabs').onclick= function (event) {
+    var target=event.target;
+    if (target.className=='tab') {
+       for (var i=0; i<tab.length; i++) {
+           if (target == tab[i]) {
+               showTabsContent(i);
+               break;
+           }
+       }
+    }
+}
+function hideTabsContent(a) {
+    for (var i=a; i<tabContent.length; i++) {
+        tabContent[i].classList.remove('show');
+        tabContent[i].classList.add("hide");
+        tab[i].classList.remove('whiteborder');
+    }
+}
+function showTabsContent(b){
+    if (tabContent[b].classList.contains('hide')) {
+        hideTabsContent(0);
+        tab[b].classList.add('whiteborder');
+        tabContent[b].classList.remove('hide');
+        tabContent[b].classList.add('show');
+    }
+}
+function pictureSelector (picNumber) {
+    zx = document.getElementById('bigImage');
+    sourceLink = 'img/gallery-image-' + picNumber +'_b.jpg';
+    zx.innerHTML ="<img" +" class=\"gallery__big-picture-img\" "+ "src=" + sourceLink + ">";
+    }
+</script>
+
+
+
+
+
+	<svg class="line_background" width="100%" height="660">
+		<g transform="translate(-80,75)">
+		<rect x="0"   y="0" rx="0" ry="0" width="50" height="740" fill="#00aedb" transform="rotate(-51.65)"/>
+		<rect x="50"  y="0" rx="0" ry="0" width="50" height="740" fill="#8cc63f" transform="rotate(-51.65)"/>
+		<rect x="100"  y="0" rx="0" ry="0" width="50" height="740" fill="#5261ac" transform="rotate(-51.65)"/>
+		<rect x="150"  y="0" rx="0" ry="0" width="50" height="740" fill="#ec098d" transform="rotate(-51.65)"/>
+		<rect x="200" y="0" rx="0" ry="0" width="50" height="740" fill="#f78f1d" transform="rotate(-51.65)"/>
+		</g>
+
+
+	</svg>
+	
+</body>
+</html>
